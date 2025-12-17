@@ -1,0 +1,66 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv
+ai_test/
+
+# Environment variables and credentials
+.env
+.env.local
+.env.*.local
+*.key
+*.pem
+
+# Scrapy temporary files
+.scrapy/
+*.log
+
+# Classification Cache and Models
+classification/.cache/
+*.pkl
+*.bin
+*.index
+models/
+*.h5
+*.ckpt
+
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# Distribution / Packaging
+dist/
+build/
+*.egg-info/
+*.egg
+
+# Playwright
+.playwright/
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Desktop.ini
